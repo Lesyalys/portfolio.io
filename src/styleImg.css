@@ -1,0 +1,145 @@
+img{
+    width: 120px;
+  }
+
+#iconHtml{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(htmlicon.png);
+    transition: 300ms ease-in-out;
+}
+#iconHtml:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(html.png);
+    transition: 300ms ease-in-out;
+}
+
+#iconCss{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(cssIcon.png);
+    transition: 300ms ease-in-out;
+}
+#iconCss:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(css.png);
+    transition: 300ms ease-in-out;
+}
+
+#iconJs{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(jsicon.png);
+    transition: 300ms ease-in-out;
+}
+#iconJs:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(js.png);
+    transition: 300ms ease-in-out;
+}
+
+#iconFlutter{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(flutterIconn.png);
+    transition: 300ms ease-in-out;
+}
+#iconFlutter:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(flutter.png);
+    transition: 300ms ease-in-out;
+}
+
+
+
+
+#iconFigma{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(figmaIcon.png);
+    transition: 300ms ease-in-out;
+}
+#iconFigma:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(figma.png);
+    transition: 300ms ease-in-out;
+}
+
+#iconTilda{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(tildaIcon.png);
+    transition: 300ms ease-in-out;
+}
+#iconTilda:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(tilda.png);
+    transition: 300ms ease-in-out;
+}
+
+#iconPs{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(photoshopIcon.png);
+    transition: 300ms ease-in-out;
+}
+#iconPs:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(photoshop.png);
+    transition: 300ms ease-in-out;
+}
+
+
+
+#iconArtstation{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(artstationIcon.png);
+    transition: 300ms ease-in-out;
+}
+/* #iconPs:hover{
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(photoshop.png);
+    transition: 300ms ease-in-out;
+} */
+

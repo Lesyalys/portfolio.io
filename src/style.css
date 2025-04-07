@@ -1,0 +1,121 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #c6c5d7;
+  /* background-color: #242424; */
+  background-image: radial-gradient(at center bottom, #5751bc 10%,#323279 20%,#1d1e4c 35%,  #0f1121 60%, #0f101a 100%);
+  background-repeat: no-repeat;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.underHeaderIcon{
+  background-color: #535bf2;
+  width: 100%;
+
+}
+
+.underHearUl{
+  padding: 0;
+}
+
+ul{
+  padding: 0;
+  line-height: 0;
+}
+
+li{
+  list-style-type: none;
+  display:inline-flex;
+  padding: 10px;
+  
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#header{
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  flex-direction: column;
+  display: flex;
+  width: 40%;
+  
+}
+
+#underHeader{
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+#iconMe{
+  width: 150px;
+  border-radius: 100px;
+  filter: drop-shadow(0 0 2em #646cffaa);
+  transition: 300ms;
+}
+
+#iconMe:hover{
+  filter: drop-shadow(0 0 2em #dcdfcdaa);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1px 1.2em;
+  font-size: 3em;
+  font-weight: 900;
+  font-family: inherit;
+  background-color: #c6c5d7;
+  cursor: pointer;
+  transition: filter 300ms;
+}
+
+.btn{
+  color: #0f1121
+}
+
+
+button:hover {
+  border-color: #6e64ff73;
+  filter: drop-shadow(0 0 1em #646cffaa);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
