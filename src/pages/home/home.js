@@ -13,12 +13,12 @@ document.querySelector('#header h1').innerHTML = `
 
       <ul>
         <li class="underHearUl"><p id="underHeader">mail:</p></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
+        <li class="underHearUl"><a href="https://e.mail.ru/cgi-bin/sentmsg?To=nya.olesya@bk.ru&from=otvet&afterReload=1" target="_blank">nya.olesya@bk.ru</li>
       </ul>
 
       <ul>
         <li class="underHearUl"><p id="underHeader">tg:</p></li>
-        <li class="underHearUl"><img src ="/public/nodejs.png"></li>
+        <li class="underHearUl"><a href="https://e.mail.ru/cgi-bin/sentmsg?To=nya.olesya@bk.ru&from=otvet&afterReload=1" target="_blank">nya.olesya@bk.ru</li>
       </ul>
       `
   
