@@ -19,7 +19,6 @@ export function showHeader(element) {
     <canvas id="demonRive"></canvas>
 
     </div>
-    <script src ="../rive/riveJs.js"></script>
     `
 
     element.querySelector('#workBtn').addEventListener('click', () => showPage2(document.querySelector('#MyAPPP')))
