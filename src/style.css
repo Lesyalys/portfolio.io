@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: #c6c5d7;
   /* background-color: #242424; */
-  background-image: radial-gradient(at center bottom, #5751bc 10%,#323279 20%,#1d1e4c 35%,  #0f1121 60%, #0f101a 100%);
+  background-image: radial-gradient(at center bottom, #5751bc 10%,#323279 20%,#1d1e4c 35%,  #0f1121 60%, #0f101a 100%); 
   background-repeat: no-repeat;
 
   font-synthesis: none;
@@ -14,6 +14,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 .underHeaderIcon{
   background-color: #535bf2;
@@ -60,7 +61,7 @@ body {
   font-size: 10px;
   flex-direction: column;
   display: flex;
-  width: 40%;
+  width: 100%;
   
 }
 
@@ -73,13 +74,35 @@ body {
 #iconMe{
   width: 150px;
   border-radius: 100px;
-  filter: drop-shadow(0 0 2em #646cffaa);
+  /* filter: drop-shadow(0 0 2em #646cffaa); */
   transition: 300ms;
 }
 
 #iconMe:hover{
   filter: drop-shadow(0 0 2em #dcdfcdaa);
 }
+
+#pulse{
+  position: absolute;
+  width: 150px;
+  border-radius: 100px;
+  filter: drop-shadow(0 0 2em #646cffaa);
+  /* transition: 300ms; */
+  animation: shadow 1s infinite alternate;
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow:0 0 55px 10px #535bf2;
+  }
+  50%{
+    box-shadow:10 10 88px 15px #535bf2;
+  }
+  100% {
+    box-shadow: 0 0 90px 20px #535bf2;
+  }
+}
+  
 
 button {
   border-radius: 8px;
